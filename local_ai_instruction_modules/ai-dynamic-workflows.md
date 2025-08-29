@@ -9,12 +9,6 @@ Listed beklow are all of the active dynamic workflows and their paths.
 
 Agents MUST resolve dynamic workflows from the remote canonical repository. Do not use local mirrors.
 
-Single Source of Truth
-
-- The dynamic workflow files listed below in the `nam20485/agent-instructions` repository are the only authoritative source for dynamic workflow scripts.
-- Do not reference local golden files, cached plans, or any mirrored copies; they are non-authoritative and should be removed if found.
-- Any edits made upstream to these files must be reflected immediately in subsequent runs by always dereferencing the remote raw URLs at runtime.
-
 ## Location of Remote Repository
 
 - Repository: nam20485/agent-instructions
@@ -46,6 +40,14 @@ Single Source of Truth
 - GitHub UI: [new-project](https://github.com/nam20485/agent-instructions/blob/main/ai_instruction_modules/ai-workflow-assignments/dynamic-workflows/new-project.md)
 - Raw URL:   [new-project](https://raw.githubusercontent.com/nam20485/agent-instructions/main/ai_instruction_modules/ai-workflow-assignments/dynamic-workflows/new-project.md)
 - Canonical file: `ai_instruction_modules/ai-workflow-assignments/dynamic-workflows/new-project.md`
+
+#### project-setup
+
+- shortId: project-setup
+
+- GitHub UI: [project-setup](https://github.com/nam20485/agent-instructions/blob/main/ai_instruction_modules/ai-workflow-assignments/dynamic-workflows/project-setup.md)
+- Raw URL:   [project-setup](https://raw.githubusercontent.com/nam20485/agent-instructions/main/ai_instruction_modules/ai-workflow-assignments/dynamic-workflows/project-setup.md)
+- Canonical file: `ai_instruction_modules/ai-workflow-assignments/dynamic-workflows/project-setup.md`
 
 #### sample-minimal
 
