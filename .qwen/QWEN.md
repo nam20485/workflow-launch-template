@@ -1,4 +1,4 @@
-# Instructions (Gemini)
+# Instructions (Qwen)
 
 ## Where to Find Your Instructions
 - Your custom instructions are located in the files inside of the [nam20485/agent-instructions](https://github.com/nam20485/agent-instructions/tree/main) repository
